@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A053BB221809EA20064D1DB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8A053BB121809EA20064D1DB /* .gitignore */; };
 		8A4F254E2176AACD0068830E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F254D2176AACD0068830E /* AppDelegate.swift */; };
 		8A4F25502176AACD0068830E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4F254F2176AACD0068830E /* ViewController.swift */; };
 		8A4F25532176AACD0068830E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4F25512176AACD0068830E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A053BB121809EA20064D1DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8A4F254A2176AACD0068830E /* AlfaMedic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlfaMedic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4F254D2176AACD0068830E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A4F254F2176AACD0068830E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		8A4F25412176AACD0068830E = {
 			isa = PBXGroup;
 			children = (
+				8A053BB121809EA20064D1DB /* .gitignore */,
 				8A4F254C2176AACD0068830E /* AlfaMedic */,
 				8A4F25612176AACE0068830E /* AlfaMedicTests */,
 				8A4F256C2176AACE0068830E /* AlfaMedicUITests */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A053BB221809EA20064D1DB /* .gitignore in Resources */,
 				8A4F25582176AACD0068830E /* LaunchScreen.storyboard in Resources */,
 				8A4F25552176AACD0068830E /* Assets.xcassets in Resources */,
 				8A4F25532176AACD0068830E /* Main.storyboard in Resources */,
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6KTN653T7;
 				INFOPLIST_FILE = AlfaMedic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6KTN653T7;
 				INFOPLIST_FILE = AlfaMedic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
